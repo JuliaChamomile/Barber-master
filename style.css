@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .barber_page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(img/Fon2\ copy@2x.jpg) ;
+    background-repeat: no-repeat ; 
+    background-size: cover;  
+  }
+
+  .container {
+  width: 1440px;
+  margin: 0;
+}
+
+  .barber-main_menu {
+    display: flex;
+    position: relative; 
+    padding-top: 35px;
+    justify-content: space-between;
+    
+  }
+
+  .barber_logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .berber-menu_list {
+    display: flex;
+    list-style: none;
+   
+  }
+
+  /* font-family: 'Open Sans', sans-serif; */
+
+  .main-menu_item {
+      display: inline;
+    
+      
+  }
+  
+  .main-menu_link {
+    width: 53px;
+    height: 17px;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    margin-right: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  }
+
+  .button {
+    background-color: #FFFFFF;
+    border-radius: 19px;
+    width: 115px;
+    height: 38px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0.2px;
+  }
+
+    .button:hover {
+      background-color: #BB8C4B;
+    }
+    
+  .barber_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .barber_motto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 42px;
+    width: 770px;
+    height: 131px;
+  }
+
+  .barber_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    width: 654px;
+    height: 54px;
+    margin-bottom: 44px;
+    line-height: 24px;
+  }
+
+  .details {
+    width: 150px;
+    height: 45px;
+    background-color: #BB8C4B;
+    border-radius: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 280px;
+  }
+  
+  .details:hover {
+
+    border-bottom: 2px solid #BB8C4B ;
+    background: transparent;
+    
+  }
+
+  .about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     background-color: #FFFFFF;
+  }
+
+  .container_about {
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin: 0;
+  }
+
+.about_header, .our-blog__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 90px;
+    text-align: center;
+  }
+
+.about_title, .our-blog__header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: 0.8px;
+    margin-bottom: 28px;
+  }
+
+.about_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px; 
+  }
+
+.decor {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.about_produts {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+  }
+.about_product-cards {
+    width: 370px;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+.about_product-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    overflow: hidden;
+    align-content: space-between;
+    margin-bottom: 46px;
+  }
+
+.about_product-name {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: #333333;
+    margin-bottom: 22px; 
+    font-weight: bold;
+  }
+
+ .about_product-text {
+    width: 300px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #999999; 
+    line-height: 24px;
+  }
+
+  .schedule {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+  }
+
+  .schedule_container {
+    background-color: #333333;
+  }
+
+.schedule_header, .review__repeat-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+  .schedule_title, .review__repeat-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    opacity: 1;
+    letter-spacing: 0.8px; 
+    font-weight: bold;
+    padding-top: 90px;
+    margin-bottom: 28px;
+  }
+
+  .schedule_text, .review__repeat-h {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+
+  .schedule_cards {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+  }
+
+  .shedule_day {
+    width: 170px;
+    border: 1px solid white;
+    justify-content: center;
+    margin-left: 30px;
+    list-style-type: none;
+   
+  }
+
+
+  .shedule_day, .day {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-transform: uppercase;
+  }
+
+  .shedule_time {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 36px;
+    margin-bottom: 30px;
+    margin-left: 67px;
+  }
+
+  ._conteiner {
+    width: 1440px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .price__conteiner {
+    width: 1440px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .price__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  .price__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: 0.8px;
+    margin-bottom: 28px;
+  }
+
+  .price__text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+    width: 570px; 
+    padding-left: 450px;
+    line-height: 24px;
+  }
+
+.price__colum {
+  margin-left: 260px;
+  margin-bottom: 90px;
+  width: 956px;
+  column-count: 2;
+  column-gap: 30px;
+  list-style-type: none;
+}
+
+.price__line {
+  margin-bottom: 40px;
+}
+
+.price__topline {
+display: flex;
+justify-content: space-between;
+margin: 0 0 10px 0;
+}
+
+.price__price {
+    display: inline-block;
+    text-align: right;
+    color: #BB8C4B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.price__name {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    letter-spacing: 0.4px;
+    opacity: 1;
+    justify-content: space-between;
+}
+ 
+.review {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #333333;
+}
+
+.review__container {
+  width: 1440px;
+  background-color: #333333;
+  margin: 0;
+}
+
+.review__cards-review {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 160px;
+}
+
+ .review__cards {
+    width:370px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    padding-top: 50px;
+ }
+
+ .review__cards-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+ }
+
+ .review__text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  width: 290px;
+  line-height: 24px;
+  margin-bottom: 30px;
+ }
+
+ .review__man {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+ padding-bottom: 50px;
+ color: #333333;
+ font-style: italic;
+ }
+
+ .our-blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+.our-blog__container {
+ width: 1440px;
+ background-color: #FFFFFF;
+ justify-content: center;
+ margin: 0;
+}
+
+.our-blog__P {
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+color: #000000;
+margin-bottom: 20px; 
+}
+
+.our-blog__cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.our-blog__card{
+    width:350px;
+    background:transparent;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+    list-style-type: none;
+ }
+
+ .our-blog__card {
+   width: 350px;
+   margin-bottom: 10px;
+ }
+ .our-blog__subtext {
+    list-style-type: none;
+    display: flex;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 14px; 
+ }
+
+ .our-blog__title {
+  display: flex;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0.4px;
+  margin-bottom: 22px; 
+ }
+
+ .our-blog__text {
+   width: 350px;
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 24px;
+  line-height: 24px;
+ }
+
+ .our-blog__btn {
+   display: flex;
+   display: inline-block;
+   justify-content: center;
+   margin-bottom: 60px;
+ }
+
+ .btn {
+   display: flex;
+  justify-content: center;
+  width: 77px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #999999;
+ }
+
+ .our-blog__cards__btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+ .btn__our__btn {
+  background-color:Transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #E0E0E0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+  padding: 14px 36px;
+ 
+ }
+
+ .btn__our__btn:hover{
+    background-color: #BB8C4B;
+ }
+
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #252525;
+    justify-content: center;
+}
+
+ .footer__container {
+   display: flex;
+   justify-content: center;
+   background-color: #252525;
+ }
+
+ .footer__contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    padding-bottom: 21px;
+    width: 1440px;
+ }
+
+ .barber__logo-text {
+    display: flex;
+    position: relative; 
+    margin-bottom: 45px;
+    justify-content: space-between;
+
+ }
+
+ .barber__shop-logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+
+ .footer__colum-left, .footer__colum-right {
+    width: 50%;
+ }
+
+.footer__text {
+  width: 350px;
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #BDBDBD;
+  margin-bottom: 22px;
+  opacity: 1; 
+  line-height: 24px;
+}
+
+.footer_text-time {
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #BDBDBD;
+  margin-bottom: 40px; 
+  opacity: 1;
+}
+
+.footer__time {
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #BDBDBD;
+  opacity: 1; 
+}
+
+.text__time1 {
+  margin-bottom: 12px;
+}
+
+.text__time2 {
+  margin-bottom: 60px;
+}
+
+.copiright {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #888888; 
+  opacity: 1;
+  padding-bottom: 21px;
+}
+
+.footer__colum-right {
+  margin-left: 219px;
+}
+
+.contact{
+  display: flex;
+  text-align: left;
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 20px;
+  color: #FFFFFF;
+  opacity: 1; 
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+
+.icon-marker, .footer__tel-number, .footer__mail {
+  display: flex;
+  text-decoration: none;
+}
+
+.icon__contact {
+  margin-right: 16px;
+  margin-bottom: 36px;
+}
+
+.icon-marker:hover {
+text-decoration: underline;
+color: #BB8C4B;
+}
+
+.footer__mail {
+  margin-bottom: 130px;
+}
+
+.footer__tel-number:hover {
+  text-decoration: underline;
+  color: #BB8C4B;
+}
+
+.footer__mail:hover {
+  text-decoration: underline;
+  color: #BB8C4B;
+}
+
+.footer__marker-text {
+  display: flex;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #BDBDBD;
+  opacity: 1; 
+}
+
+.footer__social-contact {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: right;  
+}
+
+.socials__item {
+  margin-right: 20px;
+}
+
+.socials__item:last-child {
+margin-right: 0;
+}
+
+
+.socials__item:hover {
+ background-color: #BB8C4B;
+}
